@@ -23,7 +23,7 @@ app.use(bodyParser.json()) // get information from html forms
 app.use(bodyParser.urlencoded({
     extended: true
 }))
-app.use('/pdf', express.static(__dirname + '/resources/assignments/assignment1'));
+app.use('/pdf', express.static(__dirname + '/assignments/assignment1'));
 app.use(express.static(__dirname + '/public'))
 
 
